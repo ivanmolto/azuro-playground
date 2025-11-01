@@ -1,6 +1,6 @@
 import replaceSvgIds from "./replaceSvgIds";
 
-type SvgData = {
+export type SvgData = {
   body: string;
   attributes: Record<string, string>;
 };
